@@ -4,4 +4,4 @@
   description: Cockroach Labs' Prettier SQL Formatter
   entry: /entrypoint.sh
   language: docker
-  files: [sql]
+  files: ["sql"]
