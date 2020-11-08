@@ -7,7 +7,9 @@ included in the [CockroachDB](https://www.cockroachlabs.com/) CLI.
 add the following to your `.pre-commit-config.yaml`:
 ```yaml
 - repo: https://github.com/otosky/pre-commit-sqlfmt
-  rev: v1.0
+  rev: v1.1
   hooks:
     - id: sqlfmt
+      # add args here:
+      #args: ["--use-spaces", "print-width", "45"]
 ```
