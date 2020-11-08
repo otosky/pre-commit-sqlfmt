@@ -1,0 +1,6 @@
+---
+- id: sqlfmt
+  name: sqlfmt
+  description: Cockroach Labs' Prettier SQL Formatter
+  language: docker
+  files: [sql]
