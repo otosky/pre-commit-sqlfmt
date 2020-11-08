@@ -2,5 +2,6 @@
 - id: sqlfmt
   name: sqlfmt
   description: Cockroach Labs' Prettier SQL Formatter
+  entry: /entrypoint.sh
   language: docker
-  files: [sql]
+  types: ["sql"]
