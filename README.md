@@ -11,6 +11,6 @@ add the following to your `.pre-commit-config.yaml`:
   hooks:
     - id: sqlfmt
       # if adding args, uncomment:
-      #args: ["--use-spaces", "print-width", "45"]
+      #args: ["--use-spaces", "--print-width", "45"]
 ```
 Args for `sqlfmt` can be found here: https://www.cockroachlabs.com/docs/v20.1/cockroach-sqlfmt.html
